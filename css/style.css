@@ -1,0 +1,277 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Microsoft JhengHei";
+    
+    
+}
+.header{
+    background-color: #000000;
+
+    padding-left: 40px;
+    padding-right: 40px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.body{
+    margin: 0 auto;
+    
+}
+.flex{
+    display: flex;
+}
+.nav{
+    text-align: center;
+    padding: 12px 16px;
+    
+    
+}
+.a{
+    text-decoration: none;
+    color: #fff;
+}
+.header a:hover{
+    color: #000000;
+    background-color: #fff;
+}
+
+ul li{
+    list-style: none;
+}
+
+.white{
+    color: #fff;
+}
+.div-user{
+    width: 250px;
+}
+
+.user{
+    padding: 8px;
+    font-size: 12px;
+    
+}
+.user-icon{
+    font-size: 12px;
+    padding: 10px;
+}
+
+.flex-row{
+    flex-direction: row;
+}
+
+.flex-end{
+    align-items: flex-end;
+}
+.justify-right{
+    justify-content: right;
+}
+
+.justify-flexend{
+    justify-content: flex-end;
+}
+
+.flex-wrap{
+    flex-wrap: wrap;
+}
+
+.flex-column{
+    flex-direction: column;
+}
+
+.search{
+    width: 180px;
+    height: 44px;
+
+}
+.bag{
+    font-size: 25px;
+    padding: 11px;
+    
+}
+.stretch{
+    align-items: stretch;
+}
+.ab{
+    background-color: #333333;
+}
+.abc{
+    color: #fff;
+    font-size: 14px;
+    text-align: center;
+    padding: 8px 10px;
+}
+.swiper{
+    width: 100%;
+    height: 100%;
+    object-fit:cover;
+}
+.hotsearch{
+    background-color: #000000;
+    color:#fff;
+    padding: 5px 12px;
+    border-radius: 90px 90px 90px 90px;
+    margin: 8px 6px;
+}
+.justify-center{
+    justify-content: center;
+}
+.align-center{
+    align-items: center;
+}
+.hotsearch-text{
+    margin-left: 24px;
+    margin-right: 6px;
+}
+.img{
+    width: 100%;
+    
+}
+.relative{
+    position: relative;
+}
+
+.button{
+    
+    bottom: 80px;
+    width: 100%;
+    position: absolute;
+    justify-content: center;
+    display: flex;
+
+}
+.btn1{
+    font-weight: bold;
+    position: absolute;
+    bottom: 124px;
+    right: 160px;
+    padding: 10px 113px 10px 93px;
+    background: #fff;
+    opacity: 0.6;
+
+}
+.btn11{
+    font-weight: bold;
+    position: absolute;
+    bottom: 76px;
+    right: 160px;
+    padding: 10px 113px 10px 93px;
+    background: #fff;
+    opacity: 0.6;
+
+}
+
+.btn2{
+    font-weight: bold;
+    position: absolute;
+    bottom: 10px;
+    padding: 12px 14px;
+    background: #fff;
+    opacity: 0.6;
+}
+.href-text{
+    text-decoration: none;
+}
+.w-50{
+    width: 50%;
+    padding: 12px;
+}
+.w-25{
+    width: 25%;
+}
+.shoe-div{
+    height: 290px;
+    /* width: 290px; */
+    margin: 24px 12px;
+}
+
+.shoe{
+    width: 100%;
+    height: 100%;
+    
+    object-fit: cover;
+}
+.img-h{
+    height: 290px;
+}
+
+.mail{
+    height: 80px;
+    
+    background-color: #000000;
+    color: #fff;
+    padding-left: 155px;
+    padding-right: 155px;
+    line-height: 80px;
+
+    font-size: 16px;
+    font-weight: bold;
+}
+.mail-icon{
+    color: #fff;
+    padding-left: 4px;
+}
+.text-absolute{
+    position: absolute;
+    
+    font-size: 14px;
+    font-weight: bold;
+    
+    bottom: 24px;
+    padding: 12px 14px;
+}
+.underline{
+    text-decoration: underline;
+}
+.footer{
+    padding-left: 64px;
+    padding-right: 64px;
+    background-color: #363739;
+    height: 44px;
+    line-height: 44px;
+
+    justify-content: space-between;
+}
+.footer-left{
+    padding: 12px 0px 12px 64px;
+    
+}
+
+.footertxt-right{
+    padding: 12px 64px 12px 0px;
+}
+.footertxt{
+    color: #C8CBCC;
+    
+    line-height: 44px;
+}
+
+.space-around{
+    justify-content: space-around;
+}
+.menu-div{
+    padding-left: 155px;
+    padding-right: 155px;
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+.menu{
+    flex-direction: column;
+}
+
+.menu a{
+    padding-bottom: 12px;
+    text-decoration: none;
+    color: #000000;
+    font-size: 18px;
+}
+.menu span{
+    font-weight: bold;
+    font-size: 18px;
+    padding-bottom: 12px;
+}
+.display-none{
+    display: b;
+}
